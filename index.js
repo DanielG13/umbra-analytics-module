@@ -1,3 +1,7 @@
+var macaddress = require('macaddress');
+
 export async function NavigationData() {
-    console.log("hola...")
+    macaddress.all().then(function (all) {
+        console.log(JSON.stringify(all, null, 2));
+      });
 }

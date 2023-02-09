@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanielG13/umbra-analytics-module/issues"
   },
-  "homepage": "https://github.com/DanielG13/umbra-analytics-module#readme"
+  "homepage": "https://github.com/DanielG13/umbra-analytics-module#readme",
+  "dependencies": {
+    "macaddress": "^0.5.3"
+  }
 }
