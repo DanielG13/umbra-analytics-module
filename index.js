@@ -1,1 +1,3 @@
- console.log("Hola Mundo V1")
+export async function NavigationData() {
+    console.log("hola...")
+}
